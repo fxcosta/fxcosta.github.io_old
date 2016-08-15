@@ -5,7 +5,10 @@ rdiscount:
   extensions: [smart]
 permalink: /:title.html
 paginate: 5
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
+gems:
+  - jekyll-gravatar
+  - jekyll-paginate
 port: 3000
 safe: true
 
@@ -16,8 +19,8 @@ baseurl:
 title: Felix Costa
 author: Felix Costa
 description: Personal blog and resume
-avatar: profile.png
-email: fx3costa@email.com
+avatar: profile.jpg
+email: fx3costa@gmail.com
 github: fxcosta # username
 twitter: fxcosta
 linkedin: fxcosta

@@ -6,6 +6,7 @@ layout: home
 	<div class="container">
 	  <div class="avatar">
 		<img class="img-circle" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="Responsive image">
+		<img class="gravatar" src="{{ site.email | to_gravatar }}?s=600" />
 	  </div>
 	  <h3>I'm <strong>{{ site.author }}</strong>, a Software Engineer.</h3>
 	  <h3>I love all things computer science and maths.</h3>
