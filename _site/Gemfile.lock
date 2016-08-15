@@ -4,6 +4,7 @@ GEM
     colorator (1.1.0)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
+    hpricot (0.8.6)
     jekyll (3.2.1)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -45,6 +46,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  hpricot
   jekyll
   jekyll-gravatar
   jekyll-paginate

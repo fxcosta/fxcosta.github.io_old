@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <meta name="author" content="Felix Costa" />
     <meta name="description" content="Personal blog and resume">
-    <link rel="favicon" href="static/img/favicon.ico">
+    <link rel="favicon" href="/static/img/favicon.ico">
 
     
-      <title>Now some lorem ipsum</title>
+      <title>Dual Boot (W8.1 + Mint) em um Acer Aspire E14</title>
     
 	
     <!-- Bootstrap -->
@@ -25,10 +25,10 @@
     <![endif]-->
 
 	<!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" type="text/css" href="static/css/syntax.css" />
+  <link rel="stylesheet" type="text/css" href="/static/css/syntax.css" />
 
     <!-- Google Analytics -->
     <script>
@@ -50,13 +50,13 @@
     <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href=""><i class="fa fa-home"></i></a>
+      <a class="navbar-brand" href="http://localhost:3000/"><i class="fa fa-home"></i></a>
     </div>
     <div id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="blog.html">BLOG</a></li>
-        <li><a href="projects.html">PROJECTS</a></li>
-        <li><a href="http://biomadeira.github.io/vitae">RESUME</a></li>
+        <li><a href="http://localhost:3000/blog.html">BLOG</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">RESUME</a></li>
       </ul>
     </div>
   </div>
@@ -65,38 +65,38 @@
     <div class="container">
 	<div class="blog-post">
 		<h3>
-		  <strong><a href="/post3.html">Now some lorem ipsum</a></strong>
+		  <strong><a href="/dual-boot-w8-1-mint-em-um-acer-aspire-e14.html">Dual Boot (W8.1 + Mint) em um Acer Aspire E14</a></strong>
 		</h3>
 	</div>
 	<div class="blog-title">
 		<h4>
-		April  2, 2013
+		December 28, 2015
 			&nbsp;&nbsp;
 			
-			 <span class="label label-success">News</span>
+			 <span class="label label-success">dualboot</span>
 			
-			 <span class="label label-success">Tags</span>
+			 <span class="label label-success">linux</span>
 			
-			 <span class="label label-success">Blog</span>
+			 <span class="label label-success">refind</span>
 			
-			 <span class="label label-success">Post</span>
+			 <span class="label label-success">uefi</span>
+			
+			 <span class="label label-success">windows</span>
 			
 		</h4>
 	</div>
 	<div class="panel panel-default">
 		<div class="panel-body">
 			<div class="blogpost">
-			  <p>Expetenda deseruisse eam no, purto adhuc ut pri, ex vocent iracundia theophrastus usu. Dicta causae meliore ex vel, in vix erant integre petentium. Vix ei nisl scripta recusabo, eam doming blandit facilisis ex. No odio persequeris usu, in sea euismod explicari referrentur. Dicit libris iuvaret vim at. Eu noster luptatum pri, magna soleat graeco eu pro.</p>
-
-<p>Vix id vivendum conceptam, et movet commodo indoctum vel. An mea nisl impedit principes. Qui at quod munere dissentiet, vix at modus oporteat consequuntur. Ius saepe fastidii ea, mei ne falli dicunt aeterno. Euismod consetetur ea sed.</p>
-
-<p>Nostrum vivendum conceptam ea sed, te nam meliore vivendo. At usu aliquip prompta, et eos dico alterum neglegentur, lucilius lobortis in vis. Vulputate cotidieque ut nec, quem persius sea ex, an mea luptatum oporteat. Dolor scribentur te sit, cum facilisi forensibus id, duo virtute forensibus voluptatum ad.</p>
-
-<p>Inermis recusabo elaboraret mea et, dicat neglegentur vim te. Nec et sanctus scriptorem, usu ex sapientem gubergren. Tamquam admodum ei usu. Sea at tota soleat tibique, per an fugit accumsan disputando, no justo augue civibus nam.</p>
-
-<p>Mei ei quando convenire, nec ea wisi utroque intellegebat. Essent putant indoctum sed in, reprimique persequeris neglegentur te quo. Nam rebum tractatos partiendo at, debet ubique oporteat ut his, ullum consul audire an est. Id legere saperet gloriatur nam, cum molestie percipit ex.</p>
-
-<p>Eam ut indoctum honestatis reprehendunt, at nam quot nullam fabulas. Graeci vivendo liberavisse his ex, wisi mandamus eu cum, ei sed exerci definitiones. Diam prompta pro ad, dolor corpora ei mea. Ex tantas eleifend duo.</p>
+			  <p>Esse post é mais como uma dica porque encontrei algumas dificuldades para montar um ambiente com Windows 8.1 e Linux Mint 17.2.</p>
+<p>Nunca tinha trabalhado com um notebook mais recente que já tivesse vindo com o W8 de fábrica e com UEFI, por isso, tive um certo trabalho para encontrar uma solução, uma vez que, se você chegou até aqui, sabe que é de fato trabalhoso, ainda mais quando não se está tão acostumado com um ambiente Linux.<!--more--></p>
+<p>O motivo de ter um Dual Boot é simples: Linux para trabalhar (programar, pesquisar, etc) e Win32 para jogar. Simples. Por incrível que pareça, ficou mais fácil jogar algo, já que eu sempre ficava na promessa de testar um novo jogo.</p>
+<p>Enfim, o modelo do notebook onde foi testado foi o Acer Aspire E14 (E5-471) com Windows 8.1 de fábrica. O método usado foi exatamente o mesmo que é encontrado em alguns artigos: primeiro dimensionar o HD para termos um espaço livre para nossa distro Linux, usar um LiveCD ou USB bootável, instalar a sua distro (que no meu caso foi o Mint 17.2) no espaço livre e... e aí, dependendo do seu notebook, como eu pude perceber, pode haver diversas situações.</p>
+<p>A minha situação foi: não havia um GRUB no momento de boot do notebook. Ou seja, ou iniciava direto pra um sistema ou por outro. O que definia qual sistema seria iniciado era a opção de boot escolhida. Se fosse UEFI iniciava o Windows, se não fosse, iniciava direto no Mint.</p>
+<p>A solução, a única que funcionou de todas as demais que testei, e que não foram poucas, foi a apresenta nesse vídeo:</p>
+<p>http://www.youtube.com/watch?v=3QOfYC4LJRo</p>
+<p>Que é basicamente desativar o UEFI, entrar no Linux, instalar e rodar um script chamado <a href="http://www.rodsbooks.com/refind/" target="_blank">rEFInd</a>, voltar a opção de boot para UEFI e pronto, no próximo boot teremos uma tela de escolha de qual sistema você deseja dar partida.</p>
+<p>Sem mais delongas é isso, fica apenas como uma dica para quem tem esse problemas - e pude perceber que não são poucas - e, caso tenha dado certo ou dado errado comenta para descobrir se de fato é a melhor alternativa.</p>
 
 			   <hr>
 			   <div class="related-posts">
@@ -105,12 +105,12 @@
 						<div class="row">
 							 <div class="col-sm-4 col-md-4 col-lg-4">
 								 <h6 style="text-align: right">
-								 	June  5, 2013
+								 	April  9, 2016
 								 </h6>
 							 </div>
 							 <div class="col-sm-8 col-md-8 col-lg-8">
 								 <h6 style="text-align: left">
-								 	<strong><a href="/post1.html">A Full and Comprehensive Style Test (HTML)</a></strong>
+								 	<strong><a href="//iniciando-com-tdd-1-minha-motivacao-e-primeiro-contato.html">Iniciando com TDD #1 - Minha motivação e primeiro contato</a></strong>
 								 </h6>
 							 </div>
 						</div>
@@ -118,12 +118,12 @@
 						<div class="row">
 							 <div class="col-sm-4 col-md-4 col-lg-4">
 								 <h6 style="text-align: right">
-								 	May 27, 2013
+								 	September  6, 2015
 								 </h6>
 							 </div>
 							 <div class="col-sm-8 col-md-8 col-lg-8">
 								 <h6 style="text-align: left">
-								 	<strong><a href="/post2.html">Another markdown full cheatsheet demo (Markdown)</a></strong>
+								 	<strong><a href="//por-que-devemos-preferir-composicao-ao-inves-de-heranca.html">Por que devemos preferir composição ao invés de herança?</a></strong>
 								 </h6>
 							 </div>
 						</div>
@@ -131,12 +131,12 @@
 						<div class="row">
 							 <div class="col-sm-4 col-md-4 col-lg-4">
 								 <h6 style="text-align: right">
-								 	March 15, 2013
+								 	May 31, 2015
 								 </h6>
 							 </div>
 							 <div class="col-sm-8 col-md-8 col-lg-8">
 								 <h6 style="text-align: left">
-								 	<strong><a href="/post4.html">Continued...</a></strong>
+								 	<strong><a href="//diferenca-entre-api-e-web-service-de-maneira-simples.html">Diferença entre API e Web Service de maneira simples</a></strong>
 								 </h6>
 							 </div>
 						</div>
@@ -151,8 +151,8 @@
 <script type="text/javascript">
 		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 		var disqus_shortname = 'username'; // required: replace example with your forum shortname
-		var disqus_identifier = '/post3.html';
-		var disqus_url = 'http://fxcosta.github.io//post3.html';
+		var disqus_identifier = '/dual-boot-w8-1-mint-em-um-acer-aspire-e14.html';
+		var disqus_url = 'http://localhost:3000//dual-boot-w8-1-mint-em-um-acer-aspire-e14.html';
  
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
@@ -181,8 +181,6 @@
 </footer>
 <div class="footer"></div>
 
-    <a href="https://github.com/biomadeira/sustain"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap core JavaScript -->
@@ -190,9 +188,9 @@
     integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
     crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="static/js/docs.min.js"></script>
-    <script src="static/js/main.js"></script>
+	<script src="/static/js/docs.min.js"></script>
+    <script src="/static/js/main.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="static/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

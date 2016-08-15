@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <meta name="author" content="Felix Costa" />
     <meta name="description" content="Personal blog and resume">
-    <link rel="favicon" href="static/img/favicon.ico">
+    <link rel="favicon" href="/static/img/favicon.ico">
 
     
-      <title>Continued...</title>
+      <title>Diferença entre API e Web Service de maneira simples</title>
     
 	
     <!-- Bootstrap -->
@@ -25,10 +25,10 @@
     <![endif]-->
 
 	<!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" type="text/css" href="static/css/syntax.css" />
+  <link rel="stylesheet" type="text/css" href="/static/css/syntax.css" />
 
     <!-- Google Analytics -->
     <script>
@@ -50,13 +50,13 @@
     <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href=""><i class="fa fa-home"></i></a>
+      <a class="navbar-brand" href="http://localhost:3000/"><i class="fa fa-home"></i></a>
     </div>
     <div id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="blog.html">BLOG</a></li>
-        <li><a href="projects.html">PROJECTS</a></li>
-        <li><a href="http://biomadeira.github.io/vitae">RESUME</a></li>
+        <li><a href="http://localhost:3000/blog.html">BLOG</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">RESUME</a></li>
       </ul>
     </div>
   </div>
@@ -65,30 +65,49 @@
     <div class="container">
 	<div class="blog-post">
 		<h3>
-		  <strong><a href="/post4.html">Continued...</a></strong>
+		  <strong><a href="/diferenca-entre-api-e-web-service-de-maneira-simples.html">Diferença entre API e Web Service de maneira simples</a></strong>
 		</h3>
 	</div>
 	<div class="blog-title">
 		<h4>
-		March 15, 2013
+		May 31, 2015
 			&nbsp;&nbsp;
 			
-			 <span class="label label-success">News</span>
+			 <span class="label label-success">api</span>
 			
-			 <span class="label label-success">Tags</span>
+			 <span class="label label-success">desenvolvimento web</span>
 			
-			 <span class="label label-success">Blog</span>
+			 <span class="label label-success">rest</span>
 			
-			 <span class="label label-success">Post</span>
+			 <span class="label label-success">web</span>
+			
+			 <span class="label label-success">webservices</span>
 			
 		</h4>
 	</div>
 	<div class="panel panel-default">
 		<div class="panel-body">
 			<div class="blogpost">
-			  <p>Errem feugait inimicus ad usu, sit porro verterem ut, ne duo primis eloquentiam ullamcorper. Omnes discere ut est, prima inani cu cum. Eum ea saepe audiam animal. Duis meliore vel no. Sed mentitum ocurreret in. Iusto salutatus ea eum.</p>
-
-<p>Minim dolore numquam vix an, soleat honestatis cotidieque eum cu. Sea ne ancillae voluptatum. At vim cibo veri, vim audire explicari maluisset id. Suscipit cotidieque pro id, alia tollit mandamus ad vix. Et meis tollit petentium mel, eu dico semper mel. Eius probo aeque ne per, id mollis erroribus efficiantur duo, dolor adversarium ne duo. Ius ex illud regione definitionem.</p>
+			  <p>Confesso que essa era uma pergunta que me intrigava. Eu via o conceito dos dois, conversas sobre os dois, mas ainda não tinha entendido qual a diferença entre eles e quando se referenciar a um ou a outro.</p>
+<p><!--more--></p>
+<p>Pois bem, basicamente é o seguinte:</p>
+<p><strong>API (Application Programming Interface)</strong> - É como uma interface entre dois programas diferentes de modo que eles possam se comunicar um com o outro. Ou seja, uma API é a forma que terceiros disponibilizam uma interface de modo que possamos consumir um determinado serviço deles sem nos preocuparmos com a implementação do mesmo. As API podem usar qualquer meio de comunicação para iniciar a interação entre as aplicações. Por exemplo, as chamadas de sistema (System Calls) são invocados usando interrupções da API do kernel Linux.</p>
+<p><strong>Web Services</strong> -  é uma interface projetada para se comunicar via rede. É uma API que usa obrigatoriamente a rede. Tipicamente, HTTP é o protocolo mais comumente usado para a comunicação. Web Services também usam SOAP, REST e XML-RPC como meio de comunicação. Ou seja, quando uma API precisa enviar dados através de rede, estamos falando de Web Services.</p>
+<p>Só que é preciso estar atento a alguns detalhes. Uma API geralmente envolve chamar funções de dentro de um programa. Por exemplo, as aplicações de desktop, como planilhas e documentos de texto usam VBA e APIs baseados em COM que não envolvem a Web e mesmo aplicações de servidor como o Joomla podem usar uma API PHP presente no próprio servidor sem necessidade da rede.</p>
+<p>Ou seja, resumindo de maneira bem simples:</p>
+<ul>
+<li>Todos os Web Services são API. Mas nem todas as API são Web Service.</li>
+<li>Web Services podem não executar todas as tarefas que uma API normalmente realiza (ou pode realizar).</li>
+<li>Um serviço Web utiliza apenas três estilos de comunicação: SOAP, REST e XML-RPC enquanto que a API pode usar qualquer estilo de comunicação.</li>
+<li>Um Web Service sempre precisa de uma rede para o seu funcionamento enquanto uma API não precisa.</li>
+<li>Uma API facilita a interface direta com um aplicativo enquanto que um Web Service é uma aplicação.</li>
+</ul>
+<p><strong>Referências</strong>:</p>
+<ul>
+<li><a href="http://pt.wikipedia.org/wiki/Web_service">Wikipedia</a></li>
+<li><a href="http://www.differencebetween.net/technology/internet/difference-between-api-and-web-service/">Difference Between</a></li>
+<li><a href="http://pt.stackoverflow.com/questions/17501/qual-%C3%A9-a-diferen%C3%A7a-de-api-biblioteca-e-framework">StackOverflow</a></li>
+</ul>
 
 			   <hr>
 			   <div class="related-posts">
@@ -97,12 +116,12 @@
 						<div class="row">
 							 <div class="col-sm-4 col-md-4 col-lg-4">
 								 <h6 style="text-align: right">
-								 	June  5, 2013
+								 	April  9, 2016
 								 </h6>
 							 </div>
 							 <div class="col-sm-8 col-md-8 col-lg-8">
 								 <h6 style="text-align: left">
-								 	<strong><a href="/post1.html">A Full and Comprehensive Style Test (HTML)</a></strong>
+								 	<strong><a href="//iniciando-com-tdd-1-minha-motivacao-e-primeiro-contato.html">Iniciando com TDD #1 - Minha motivação e primeiro contato</a></strong>
 								 </h6>
 							 </div>
 						</div>
@@ -110,12 +129,12 @@
 						<div class="row">
 							 <div class="col-sm-4 col-md-4 col-lg-4">
 								 <h6 style="text-align: right">
-								 	May 27, 2013
+								 	December 28, 2015
 								 </h6>
 							 </div>
 							 <div class="col-sm-8 col-md-8 col-lg-8">
 								 <h6 style="text-align: left">
-								 	<strong><a href="/post2.html">Another markdown full cheatsheet demo (Markdown)</a></strong>
+								 	<strong><a href="//dual-boot-w8-1-mint-em-um-acer-aspire-e14.html">Dual Boot (W8.1 + Mint) em um Acer Aspire E14</a></strong>
 								 </h6>
 							 </div>
 						</div>
@@ -123,12 +142,12 @@
 						<div class="row">
 							 <div class="col-sm-4 col-md-4 col-lg-4">
 								 <h6 style="text-align: right">
-								 	April  2, 2013
+								 	September  6, 2015
 								 </h6>
 							 </div>
 							 <div class="col-sm-8 col-md-8 col-lg-8">
 								 <h6 style="text-align: left">
-								 	<strong><a href="/post3.html">Now some lorem ipsum</a></strong>
+								 	<strong><a href="//por-que-devemos-preferir-composicao-ao-inves-de-heranca.html">Por que devemos preferir composição ao invés de herança?</a></strong>
 								 </h6>
 							 </div>
 						</div>
@@ -143,8 +162,8 @@
 <script type="text/javascript">
 		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 		var disqus_shortname = 'username'; // required: replace example with your forum shortname
-		var disqus_identifier = '/post4.html';
-		var disqus_url = 'http://fxcosta.github.io//post4.html';
+		var disqus_identifier = '/diferenca-entre-api-e-web-service-de-maneira-simples.html';
+		var disqus_url = 'http://localhost:3000//diferenca-entre-api-e-web-service-de-maneira-simples.html';
  
             /* * * DON'T EDIT BELOW THIS LINE * * */
             (function() {
@@ -173,8 +192,6 @@
 </footer>
 <div class="footer"></div>
 
-    <a href="https://github.com/biomadeira/sustain"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap core JavaScript -->
@@ -182,9 +199,9 @@
     integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
     crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="static/js/docs.min.js"></script>
-    <script src="static/js/main.js"></script>
+	<script src="/static/js/docs.min.js"></script>
+    <script src="/static/js/main.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="static/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
