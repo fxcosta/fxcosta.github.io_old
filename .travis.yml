@@ -1,21 +1,18 @@
 language: php
 php: 7
-
 sudo: true
-
 branches:
   only:
-    - master
-
+  - master
 before_install:
-  - phpenv config-rm xdebug.ini || true
-  - composer self-update
-  - echo -e "machine github.com\n  fxcosta $GH_TOKEN" >> ~/.netrc
-
+- phpenv config-rm xdebug.ini || true
+- composer self-update
+- echo -e "machine github.com\n  fxcosta $GH_TOKEN" >> ~/.netrc
 install:
-  - gem install sass
-  - composer install --prefer-dist
-
+- gem install sass
+- composer install --prefer-dist
 script: sh publish.sh
-
 after_success: if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then sh publish.sh; fi
+env:
+  global:
+    secure: hHrAaM4+y+ET/QQDYfoR8AGkC3fjcPJ9HvHmMrlYkQzFqdMRGiATRWFGZTxrwBl6dYst9f5h2aMtzRN5jEeDEopkmSDRg5fPNW8zvMcUB6rr4iT1+ujFas/AsAC7BTQkcFzRlh0zbBxVxFYnuVcBdWxwkcMVkZr4ocvXKBNWFKE=
