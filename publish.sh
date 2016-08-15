@@ -16,12 +16,11 @@ fi
 git init
 
 # configure env (locally)
-git config user.email 'fx3costa@gmail.com
+git config user.email 'fx3costa@gmail.com'
 git config user.name 'fxcosta'
 
 # commit build
 git add .
 git commit -m "Build website"
 
-# push to GitHub Pages
 git push https://github.com/fxcosta/fxcosta.github.io -f master
