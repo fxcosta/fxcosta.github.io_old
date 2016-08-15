@@ -5,7 +5,7 @@ set -e
 set -x
 
 # Go to the output directory
-cd output_prod
+cd build
 
 # Remove the existing repo if it exists
 if [ -d ".git" ]; then

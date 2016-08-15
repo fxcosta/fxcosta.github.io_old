@@ -15,7 +15,6 @@ before_install:
 install:
   - gem install sass
   - composer install --prefer-dist
-  - sudo spress site:build --env=prod
 
 script: sh build.sh
 
