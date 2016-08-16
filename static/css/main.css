@@ -4,7 +4,7 @@ html,
 body {
   height: 100%;
   background-color: #fff;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Lato', 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   /*border-top: 3px solid #27A822;*/
 }
@@ -142,6 +142,7 @@ body {
 .avatar {
   padding-top: 5%;
 }
+
 .blog-post{
   padding-top: 15px;
 }
@@ -181,5 +182,5 @@ div.footer{
   height: 50px;
   padding-bottom: 15px;
   
-}*/
+  }*/
 

@@ -18,7 +18,7 @@ url: http://fxcosta.github.io/
 baseurl: "/"
 title: Felix Costa
 author: Felix Costa
-description: Personal blog and resume
+description: Blog and resume of a Web & Mobile Developer passionate
 avatar: profile.jpg
 email: fx3costa@gmail.com
 github: fxcosta # username
@@ -26,8 +26,8 @@ twitter: fxcosta
 linkedin: fxcosta
 #stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
-disqus: username
-google_analytics: UA-69391421-1
+disqus: fxcosta
+#google_analytics: UA-69391421-1
 
 
 # needed for travis-ci build
