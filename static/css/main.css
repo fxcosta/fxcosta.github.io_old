@@ -133,6 +133,15 @@ body {
   color: #6b6b6b;
 }
 @media (max-width: 767px) {
+
+  .blog-container h5 {
+    text-align: none;
+  }
+
+  .blog-container .post-date h5 {
+    font-size: 12px;  
+  }
+
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #6b6b6b;
   }
@@ -147,6 +156,14 @@ body {
 
 /* Custom page CSS
 -------------------------------------------------- */
+
+.blog-container .post-date {
+  text-align: left;
+}
+
+.blog-container .post-title {
+  text-align: right;
+}
 
 .container {
   width: auto;
