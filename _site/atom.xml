@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   
     <title type="text" xml:lang="en">Felix Costa</title>
-    <link type="application/atom+xml" rel="self" href="http://localhost:3000//atom.xml"/>
+    <link type="application/atom+xml" rel="self" href="http://localhost:3000/atom.xml"/>
   
-  <link href="http://localhost:3000//"/>
-  <id>http://localhost:3000//</id>
-  <updated>2016-08-19T21:03:14Z</updated>
+  <link href="http://localhost:3000/"/>
+  <id>http://localhost:3000/</id>
+  <updated>2016-08-19T21:10:25Z</updated>
   <author>
     <name>Felix Costa</name>
     <email>fx3costa@gmail.com</email>
@@ -15,8 +15,8 @@
   
   <entry>
   <title type="text">Iniciando com TDD #1 - Minha motivação e primeiro contato</title>
-  <link rel="alternate" type="text/html" href="http://localhost:3000//iniciando-com-tdd-1-minha-motivacao-e-primeiro-contato.html" />
-  <id>http://localhost:3000//iniciando-com-tdd-1-minha-motivacao-e-primeiro-contato</id>
+  <link rel="alternate" type="text/html" href="http://localhost:3000/iniciando-com-tdd-1-minha-motivacao-e-primeiro-contato.html" />
+  <id>http://localhost:3000/iniciando-com-tdd-1-minha-motivacao-e-primeiro-contato</id>
   <published>2016-04-09T04:01:36Z</published>
   <updated>2016-04-09T04:01:36Z</updated>
   <content type="html"><![CDATA[ <p>E aí, pessoal!</p>
@@ -27,8 +27,8 @@
 
   <entry>
   <title type="text">Dual Boot (W8.1 + Mint) em um Acer Aspire E14</title>
-  <link rel="alternate" type="text/html" href="http://localhost:3000//dual-boot-w8-1-mint-em-um-acer-aspire-e14.html" />
-  <id>http://localhost:3000//dual-boot-w8-1-mint-em-um-acer-aspire-e14</id>
+  <link rel="alternate" type="text/html" href="http://localhost:3000/dual-boot-w8-1-mint-em-um-acer-aspire-e14.html" />
+  <id>http://localhost:3000/dual-boot-w8-1-mint-em-um-acer-aspire-e14</id>
   <published>2015-12-28T03:17:00Z</published>
   <updated>2015-12-28T03:17:00Z</updated>
   <content type="html"><![CDATA[ <p>Esse post é mais como uma dica porque encontrei algumas dificuldades para montar um ambiente com Windows 8.1 e Linux Mint 17.2.</p>
@@ -46,8 +46,8 @@
 
   <entry>
   <title type="text">Por que devemos preferir composição ao invés de herança?</title>
-  <link rel="alternate" type="text/html" href="http://localhost:3000//por-que-devemos-preferir-composicao-ao-inves-de-heranca.html" />
-  <id>http://localhost:3000//por-que-devemos-preferir-composicao-ao-inves-de-heranca</id>
+  <link rel="alternate" type="text/html" href="http://localhost:3000/por-que-devemos-preferir-composicao-ao-inves-de-heranca.html" />
+  <id>http://localhost:3000/por-que-devemos-preferir-composicao-ao-inves-de-heranca</id>
   <published>2015-09-06T05:47:17Z</published>
   <updated>2015-09-06T05:47:17Z</updated>
   <content type="html"><![CDATA[ <p>Logo quando estamos começando nossa longa caminhada sobre os vales escuros da orientação a objetos - e digo escuro por que cada dia que passa se aprende mais - aprendemos o uso e importância da herança. Se você está lendo esse artigo suponho que ao menos já tenha visto uma situação onde você viu ou implementou herança.</p>
@@ -103,8 +103,8 @@
 
   <entry>
   <title type="text">Diferença entre API e Web Service de maneira simples</title>
-  <link rel="alternate" type="text/html" href="http://localhost:3000//diferenca-entre-api-e-web-service-de-maneira-simples.html" />
-  <id>http://localhost:3000//diferenca-entre-api-e-web-service-de-maneira-simples</id>
+  <link rel="alternate" type="text/html" href="http://localhost:3000/diferenca-entre-api-e-web-service-de-maneira-simples.html" />
+  <id>http://localhost:3000/diferenca-entre-api-e-web-service-de-maneira-simples</id>
   <published>2015-05-31T00:00:24Z</published>
   <updated>2015-05-31T00:00:24Z</updated>
   <content type="html"><![CDATA[ <p>Confesso que essa era uma pergunta que me intrigava. Eu via o conceito dos dois, conversas sobre os dois, mas ainda não tinha entendido qual a diferença entre eles e quando se referenciar a um ou a outro.</p>
