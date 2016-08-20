@@ -9,12 +9,12 @@ title: Blog - Felix Costa
 		<div class="panel-body">
 			{% for post in site.posts %}
 			<div class="row">
-				<div class="col-sm-4 col-md-4 col-lg-4">
+				<div class="col-sm-3 col-md-3 col-lg-3">
 					<h5 style="text-align: right">
 						{{ post.date | date: "%e/%m/%Y" }}
 					</h5>
 				</div>
-				<div class="col-sm-8 col-md-8 col-lg-8">
+				<div class="col-sm-9 col-md-9 col-lg-9">
 					<h5 style="text-align: left">
 						<strong><a href="{{ post.url }}">{{ post.title }}</a></strong>
 					</h5>
