@@ -5,45 +5,23 @@ date: 2015-09-06 05:47:17.000000000 -03:00
 type: post
 published: true
 status: publish
-categories: []
-tags: []
-meta:
-  _oembed_39d776fb1084d667729438ea45ecc91e: "{{unknown}}"
-  _oembed_869bbfc5a93d85b5f4bdd8fb721c5f88: "{{unknown}}"
-  _oembed_968f9e5c6a08261203a8cd635f60afe9: "{{unknown}}"
-  _oembed_49b2f2b35ccaa7317744bdc4f2807630: "{{unknown}}"
-  _oembed_05d73e7a2f61aad1c703c89b4cd9159c: "{{unknown}}"
-  _oembed_5054a627f442296252a9e3d271f4611a: "{{unknown}}"
-  _oembed_95efb789e76d3fdc1b81b79e06b0894b: "{{unknown}}"
-  _oembed_d123af1e757a8d1f8be665533d413d26: "{{unknown}}"
-  _edit_last: '59574466'
-  _oembed_97b4ff4e1792c4f84d66591ee30318f8: "{{unknown}}"
-  _oembed_1bf1521d446a8fbb707388f070d77099: "{{unknown}}"
-  _oembed_2c9ddaa50a332f09e9b15349e6a45e0f: "{{unknown}}"
-  _oembed_a26cc39e6d6048603c58ab054036a4cd: "{{unknown}}"
-  _oembed_e5abed9204ca679b4893c09b55769581: "{{unknown}}"
-  _oembed_ce63d11c8fe837fdd3978cb7c90b6ac3: "{{unknown}}"
-  _oembed_bc8d6e1240418401a3bad4579a3b0697: "{{unknown}}"
-  _oembed_93721855f9872dbee86b67461b072f8f: "{{unknown}}"
-  _rest_api_published: '1'
-  _rest_api_client_id: "-1"
-  _publicize_job_id: '14484530368'
-  geo_public: '0'
-  _oembed_199d74dcd2dc08368c78bd4442fd9fac: "{{unknown}}"
-  _oembed_4105221f2f8853620300a9d30c92cf23: "{{unknown}}"
-  _oembed_49e1d2677599021569e677692f4c5f6d: "{{unknown}}"
-  _oembed_eb8a498680ab564c2249dffcbbdb73d0: "{{unknown}}"
-  _oembed_b31821819220833e809be1625c81122c: "{{unknown}}"
-  _oembed_f5f0aa638c33576c9fc378169e376e9d: "{{unknown}}"
-  _oembed_9201d422108209504c7b6b71ac0f4025: "{{unknown}}"
-  _oembed_79fc265db3309f206354c8fe2dc40b63: "{{unknown}}"
+comments: true
+categories: 
+  - Orientação a Objetos
+tags:
+  - orientação a objetos
+  - herança
+  - composição
+  - solid
 author:
-  login: fx3costa0
-  email: fx3costa@gmail.com
-  display_name: fx3costa
-  first_name: ''
-  last_name: ''
+    name: "Felix Costa"
+    mail: "fx3costa@gmail.com"
+    github: "fxcosta"
+    blog: "https://fxcosta.github.io/"
+    twitter: "@fxcosta"
+    facebook: "fx3costa"
 ---
+
 <p>Logo quando estamos começando nossa longa caminhada sobre os vales escuros da orientação a objetos - e digo escuro por que cada dia que passa se aprende mais - aprendemos o uso e importância da herança. Se você está lendo esse artigo suponho que ao menos já tenha visto uma situação onde você viu ou implementou herança.</p>
 <p>Mas, será que minha classe realmente É-UM outra classe? Será que eu realmente tenho que adotar tais comportamentos e até mesmo sobrescreve-los? Será que a classe filha realmente precisa de todos esses métodos e não somente de um ou dois? Se a herança é ferramenta básica de extensão e reuso de funcionalidade por que seu uso é extremamente desencorajado? Bem, vamos começar por partes.<!--more--></p>
 <p>Vamos ser diretos e listar os problemas da herança - levando em consideração que o leitor tenha noção da herança, seu objetivo e motivação. Primeiro ponto, inquestionável é: herança quebra o encapsulamento. Mas hein?</p>

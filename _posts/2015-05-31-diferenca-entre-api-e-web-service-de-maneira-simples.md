@@ -5,6 +5,7 @@ date: 2015-05-31 00:00:24.000000000 -03:00
 type: post
 published: true
 status: publish
+comments: true
 categories: []
 tags:
 - api

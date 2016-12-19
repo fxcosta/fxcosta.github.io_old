@@ -5,23 +5,22 @@ date: 2015-12-28 03:17:00.000000000 -03:00
 type: post
 published: true
 status: publish
-categories: []
+comments: true
+categories:
+    - linux
 tags:
-- dualboot
-- linux
-- refind
-- uefi
-- windows
-meta:
-_edit_last: '59574466'
-geo_public: '0'
-_publicize_job_id: '18171820938'
+    - dualboot
+    - linux
+    - refind
+    - uefi
+    - windows
 author:
-login: fx3costa0
-email: fx3costa@gmail.com
-display_name: fx3costa
-first_name: ''
-last_name: ''
+    name: "Felix Costa"
+    mail: "fx3costa@gmail.com"
+    github: "fxcosta"
+    blog: "https://fxcosta.github.io"
+    twitter: "@fxcosta"
+    facebook: "fx3costa"
 ---
 <p>Esse post é mais como uma dica porque encontrei algumas dificuldades para montar um ambiente com Windows 8.1 e Linux Mint 17.2.</p>
 <p>Nunca tinha trabalhado com um notebook mais recente que já tivesse vindo com o W8 de fábrica e com UEFI, por isso, tive um certo trabalho para encontrar uma solução, uma vez que, se você chegou até aqui, sabe que é de fato trabalhoso, ainda mais quando não se está tão acostumado com um ambiente Linux.<!--more--></p>

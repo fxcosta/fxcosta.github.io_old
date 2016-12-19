@@ -5,18 +5,19 @@ date: 2016-04-09 04:01:36.000000000 -03:00
 type: post
 published: true
 status: publish
-categories: []
-tags: []
-meta:
-  _publicize_job_id: '21604136158'
-  _rest_api_client_id: "-1"
-  _rest_api_published: '1'
+comments: true
+categories:
+  - tdd
+tags:
+  - tdd
+  - phpba
 author:
-  login: fx3costa0
-  email: fx3costa@gmail.com
-  display_name: fx3costa
-  first_name: ''
-  last_name: ''
+    name: "Felix Costa"
+    mail: "fx3costa@gmail.com"
+    github: "fxcosta"
+    blog: "https://fxcosta.github.io"
+    twitter: "@fxcosta"
+    facebook: "fx3costa"
 ---
 <p>E aí, pessoal!</p>
 <p>Esse artigo foi escrito originalmente para o <a href="http://phpba.com.br/iniciando-com-tdd-1/">Blog PHP-BA</a>, então confere lá e aproveita que tem bastante conteúdo interessante. Valeu, galera da comunidade PHP-BA!</p>
